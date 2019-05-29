@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="17sp"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/rdomain"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Domain" />
+
+        <TextView
+            android:id="@+id/rStatus"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/rDate"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="Date" />
+
+            <TextView
+                android:id="@+id/rtime"
+                android:layout_weight="0.5"
+                android:fontFamily="sans-serif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
